@@ -1,0 +1,39 @@
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.50rem; 
+    line-height: 1.5;
+}
+
+.card-text {
+    font-size: 1,5rem;  
+    line-height: 1.5; 
+}
+
+.custom-card {
+    height: 100%; /* Faz com que todos os cards usem 100% da altura da coluna */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espaça o conteúdo verticalmente */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 800px; /* ou um valor que você preferir */
+    margin: auto; /* centraliza a seção */
+}
+
+
+legend {
+    padding: 0 10px;
+}
